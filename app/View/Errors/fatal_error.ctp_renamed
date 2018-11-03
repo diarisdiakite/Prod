@@ -1,0 +1,8 @@
+<div id="content">
+
+  <?php echo $this->Flash->render(); ?>
+
+  <?php echo $this->fetch('content'); ?>
+
+  <?php echo $this->fetch('message'); ?>
+</div>

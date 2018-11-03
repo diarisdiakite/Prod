@@ -1,0 +1,188 @@
+
+body
+{
+	font-family: lucida grande, tahoma, verdana, arial, sans-serif;
+	background-color: white;
+}
+
+body p
+{
+	font-family: lucida;
+	font-size: 0.8em;
+	line-height: 1.28;
+}
+
+#banner
+{
+background-image: url(images/image_logo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+border: 0px solid #dedede;
+height: 150px;	
+}
+
+#content_area
+{
+font-size: 12px;
+float: auto;
+width: 150px;
+margin: 20px 0 10px 0;
+padding: 10px;	
+}
+
+
+
+footer
+{
+clear: both;
+width: auto;
+height: 20px;
+padding: 10px;
+border: 1px solid #E3E3E3;
+text-align: center;
+color: #fff;
+text-shadow: 0.1em 0.1em #333;
+background-color: #e9e9e9; 	
+}
+
+
+.entete
+{
+/*text-align: left;*/
+width: 950px;
+height: 100px;
+background-color: white;
+margin : 0 auto;
+padding: 10px;
+}
+
+.menuprincipal
+{
+width: 900px;
+height: cover;
+border-radius: 10px;
+moz-border-radius: 10px;
+margin : 0 auto;
+padding: 10px;
+position: absolute; 
+top: 150px; 
+left: 24px;
+right: 24px;
+font-weight: bold;
+background-color:Lightblue;
+
+font-family: lucida;
+font-style: italic;
+font-size: small;
+text-align: justify;
+}
+
+
+a /* Liens par défaut (non survolés) */
+{
+	font-weight: bold;
+	font-family: lucida;
+	font-style: italic;
+	font-size: 16px;
+	text-align: justify;
+   text-decoration: underline;
+   color: blue;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: #AAA;
+}
+
+
+a:active /* Quand le visiteur clique sur le lien */
+{
+	text-decoration: underline;
+    background-color: red;
+}
+
+
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+	text-decoration: underline;
+    background-color: #FFCC66;
+    border-top-width:12px;
+	border-bottom-width:12px;
+	border-right-width:12px;
+	border-left-width:12px;
+}
+
+
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    /*color: #AAA; /* Appliquer une couleur grise */
+}
+
+
+.pstyle
+{
+font-family: lucida;
+font-style: italic;
+font-size: small;
+text-align: justify;
+}
+
+.titlestyle
+{
+font-family: lucida;
+font-style: italic;
+font-size: large;
+text-align: left;
+}
+
+
+#logo
+{
+float: center;
+padding: 0px 10px 10px 10px;
+width: 950;
+height: 100px;
+margin: 0px 10px 10px 0;
+padding: 10px;
+}
+
+h1
+{
+font-family: Arial;
+font-style: italic;
+font-color: green;
+font-size: x-large;
+text-align: left;
+text-transform:uppercase;
+}
+
+.h3
+{
+font-family: Arial;
+font-style: italic;
+font-color: green;
+font-size: medium;
+text-align: right;
+text-transform:capitalize;
+}
+
+h5
+{
+font-family: Arial;
+font-style: italic;
+font-color: green;
+font-size: x-small;
+text-align: justify;
+}
+
+.pmenu
+{
+font-family: lucida;
+font-style: italic;
+font-color: green;
+font-size: small;
+text-align: center;
+}

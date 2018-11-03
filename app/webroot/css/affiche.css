@@ -1,0 +1,26 @@
+
+body
+
+#wrapper
+{
+width: 100%;
+background-color: white;
+margin : 0 auto;
+padding: 0 auto;
+border: 3px solid #dedede;
+}
+
+#wrapper_1
+{
+width: 100%;
+background-color: LightGray;
+margin : 0 auto;
+padding: 0 auto;
+border: 0px solid #dedede;
+}
+
+#sidebar
+{
+width:25%; 
+background-color:lightBlue;
+}
